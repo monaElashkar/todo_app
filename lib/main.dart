@@ -5,6 +5,7 @@ import 'package:todo_app/feature/auth/presentation/screens/login_veiw/login_scre
 import 'package:todo_app/feature/home/presentation/screens/home_screen.dart';
 
 import 'core/routing/app_route.dart';
+import 'core/routing/route_name.dart';
 import 'feature/auth/presentation/screens/register_veiw/register_screen.dart';
 import 'firebase_options.dart';
 
@@ -30,8 +31,9 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           title: 'TODO APP',
           debugShowCheckedModeBanner: false,
-         // onGenerateRoute: AppRoute.generateRoute,
-         home: HomeScreen(),
+          initialRoute: RouteName.home,
+          onGenerateRoute: AppRoute.generateRoute,
+         //home: HomeScreen(),
         );
       }
     );

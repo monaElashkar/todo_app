@@ -16,6 +16,8 @@ class AppRoute {
        }
       case RouteName.login:
        return MaterialPageRoute(builder: (context)=>LoginScreen());
+      case RouteName.home:
+       return MaterialPageRoute(builder: (context)=>HomeScreen());
       case RouteName.register:
         return MaterialPageRoute(builder: (context)=>RegisterScreen());
       default:

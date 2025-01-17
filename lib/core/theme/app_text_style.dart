@@ -23,6 +23,17 @@ class AppTextStyle {
     fontWeight: FontWeight.w700,
     color: AppColors.secondaryColor,
   );
+
+    static TextStyle size32SimeBoldsecondaryColor = TextStyle(
+    fontSize: 32.sp,
+    fontWeight: FontWeight.w600,
+    color: AppColors.secondaryColor,
+  );
+      static TextStyle size32RegulargrayColor = TextStyle(
+    fontSize: 32.sp,
+    fontWeight: FontWeight.w400,
+    color: AppColors.grayColor,
+  );
     static TextStyle size24SimeBoldsignUpColor = TextStyle(
     fontSize: 24.sp,
     fontWeight: FontWeight.w600,
